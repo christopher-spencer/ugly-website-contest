@@ -1,0 +1,153 @@
+body {
+    display: grid;
+  
+    background-image: url("https://olioiniowa.com/wp-content/uploads/2022/03/HotDogMufflerMan1_web.jpg");
+    background-color: purple;
+    background-size: 500px;
+     /* animation: rotate 20s linear infinite;  */
+  }
+
+  section.horseytime1 {
+      
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUt82cMH5yaWliA4hRmCFDy26PMfDc2sIcTY4URT7_HyOHDstFlbga7pHCb4A-ME3UY_A&usqp=CAU");
+      animation: rotate 10s linear infinite; 
+  
+    }
+
+  .main {
+    width: 500px;
+    height: 350px;
+  
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  .main > * {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .Horse {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    animation: rotate 5s linear infinite; 
+  }
+
+  section.seriousHotdogs {
+      background-image: url("https://external-preview.redd.it/wzPb_WzJDfXOmX7BuVcj1pns158UPh8SQgptrkyFlcA.jpg?width=960&crop=smart&auto=webp&s=29e4ca1435847c737ca7e381a1c3d085e8a16518");
+      background-size: 500px;
+  }
+
+  section.horseytime2 {
+      display: grid;
+      justify-content: end;
+    
+
+  }
+
+  section.horseytime3 {
+    display: grid;
+    justify-content: center;
+    animation: rotate 8s linear infinite; 
+
+}
+
+section.horseytime4 {
+  display: grid;
+  justify-content: center;
+}
+
+.horseytime4 .item img {
+  height: 245px;
+  width: 245px;
+  justify-content: end;
+}
+
+  .item {
+    animation: spinAround 15s linear infinite;
+  }
+
+  .item img {
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+  }
+
+  .main > * > img {
+    animation: rotate 5s linear infinite;
+  }
+
+  p {
+      color: rgb(235, 139, 13);
+      font-size: 75px;
+      font-family: 'Faster One', cursive;
+
+      border: 3px double rgb(8, 240, 19);
+      text-align: center;
+
+      /* animation: spinAround 10s linear infinite; */
+  }
+
+h1 {
+    color: rgb(226, 25, 142);
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: purple;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUt82cMH5yaWliA4hRmCFDy26PMfDc2sIcTY4URT7_HyOHDstFlbga7pHCb4A-ME3UY_A&usqp=CAU");
+
+}
+
+#formInfo {
+    border-color: rgb(7, 238, 7);
+    border-style: double;
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(247, 231, 7);
+    width: 1300px;
+    margin: 0 auto;
+
+    /* animation: spinAround 10s linear infinite; */
+}
+
+form {
+    background-color: rgb(41, 10, 77);
+
+}
+
+.button {
+  font:  50px 'Faster One';
+  color: rgb(236, 233, 4);
+  background-color: #e60d0d;
+  padding: 30px 75px 50px 60px;
+  border-top: 1px solid greenyellow;
+  display: inline-block;
+  border-radius: 30px;
+  margin-left: 300px;
+}
+
+.button:hover {
+  color: rgb(52, 230, 28);
+  animation: spinAround 10s linear infinite;
+}
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spinAround {
+    from {
+      transform: rotate(0deg) translate(300px) scale(.7);
+    }
+    to {
+      transform: rotate(360deg) translate(300px) scale(.7);
+    }
+  }
